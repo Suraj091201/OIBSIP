@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .profile-img {
+            max-width: 200px;
+            border-radius: 50%;
+        }
+
+        .project {
+            border: 1px solid #ccc;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .project h3 {
+            margin-top: 0;
+        }
+
+        .project p {
+            margin-bottom: 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Personal Portfolio</h1>
+    </header>
+    <section>
+        <img class="profile-img" src="C:\Users\Suraj\OneDrive\Documents\Pictures\LinkedIn profile pic.jpg" alt="My Profile Picture">
+        <h2>About Me</h2>
+        <p>
+            Welcome to my personal portfolio!
+        </p>
+        <p>My name is Suraj Pramod Jha</p>
+        <p>I am a Computer Engineering student and I have deep love for coding...</p>
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Description of project</p>
+            <p>1. I used HTMl and CSS to create this</p>
+            <p>2. It is nothing but my first project of Oasis Infobyte Internship</p>
+            <p>3. I learned basic tags and attributes of HTMl and many functionalities of CSS too</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of Project</p>
+            <p>1. I used HTML and CSS to create this also</p>
+            <p>2. It was for personal portfolio website</p>
+            <p>2. I learned how to add image while creating personal portfolio of mine</p>
+        </div>
+    </section>
+    <footer>
+        <p>Contact: surajkumarjha421@gmail.com</p>
+    </footer>
+</body>
+</html>
